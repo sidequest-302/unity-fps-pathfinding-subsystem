@@ -1,6 +1,6 @@
 # Architectural Portfolio: Dynamic AI Navigation & Pathfinding Subsystem
 
-Welcome! This repository is a small technical showcase of a decoupled, performance-focused AI navigation subsystem pulled from an ongoing 3D First-Person Shooter project I'm building in Unity (C#).
+Welcome! This repository is a small technical showcase of an early build decoupled, performance-focused AI navigation subsystem pulled from an ongoing 3D First-Person Shooter project I'm building in Unity (C#).
 
 Instead of leaning entirely on built-in engine solutions, this framework experiments with a custom spatial data layout, load-balanced algorithmic pathfinding, and state-driven entity physics to handle real-time enemy behaviors.
 
@@ -42,6 +42,8 @@ The subsystem is built around three independent, highly decoupled scripts that c
 Below is a demonstration of the `GridManager`, `Pathfinder`, and `EnemyMovement` components working together in real time to test navigation relative to player:
 
 ![Pathfinding Demonstration Workflow](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Enemy%20Movement_2.gif?raw=true)
+
+Next is a demonstration of the `EnemyMovement` components evaluates structural target variables to move between more complex AI state logic (Melee, Charging, Mid-Range, and Tracking):
 ![Pathfinding Demonstration Workflow](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Enemy%20movement.gif?raw=true)
 
 ### 2. Weapon & Projectile Physics Sandbox
