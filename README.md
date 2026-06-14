@@ -26,7 +26,7 @@ The subsystem is built around three independent, highly decoupled scripts that c
 ### 2. Load-Balanced Algorithmic Processing (`Pathfinder.cs`)
 
 * **Role:** Handles the mathematical side of the pathfinding algorithm.
-* **Key Implementation:** Uses an asynchronous execution queue powered by Unity Coroutines and C# Action callbacks. By spreading calculations across successive engine frames, the system can generate paths without causing noticeable main-thread slowdowns or stuttering.
+* **Key Implementation:** Uses an asynchronous execution queue powered by Unity Coroutines and C# Action callbacks. By spreading calculations across successive engine frames, the system can generate automated paths towards target.
 
 ### 3. Contextual AI Actuation (`EnemyMovementExcerpt.cs`)
 
@@ -39,7 +39,7 @@ The subsystem is built around three independent, highly decoupled scripts that c
 
 ### 1. System Coordination Overview
 
-Below is a demonstration of the `GridManager`, `Pathfinder`, and `EnemyMovement` components working together in real time to navigate around dynamic environmental obstacles:
+Below is a demonstration of the `GridManager`, `Pathfinder`, and `EnemyMovement` components working together in real time to test navigation relative to player:
 
 ![Pathfinding Demonstration Workflow](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Enemy%20movement.gif?raw=true)
 
@@ -54,12 +54,6 @@ A demonstration of the physical interaction layer, including custom velocity vec
 A look at the high-velocity raycasting pipeline, evaluating surface material tags and dynamically spawning particle impact effects relative to collision normals:
 
 ![Bullet Impact Physics Sandbox](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Bullet%20Physics.gif?raw=true)
-
-### 4. Core Core Loop & Systems Integration
-
-A broader look at the active mechanics, state tracking, and interconnected systems running together inside the baseline development sandbox:
-
-![General Gameplay Systems Sandbox](PASTE_YOUR_GENERAL_GAMEPLAY_GIF_URL_HERE)
 
 ---
 
