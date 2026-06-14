@@ -41,13 +41,13 @@ The subsystem is built around three independent, highly decoupled scripts that c
 
 Below is a demonstration of the `GridManager`, `Pathfinder`, and `EnemyMovement` components working together in real time to navigate around dynamic environmental obstacles:
 
-![Pathfinding Demonstration Workflow](PASTE_YOUR_PATHFINDING_OR_MOVEMENT_GIF_URL_HERE)
+![Pathfinding Demonstration Workflow](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Enemy%20movement.gif?raw=true)
 
 ### 2. Weapon & Projectile Physics Sandbox
 
 A demonstration of the physical interaction layer, including custom velocity vectors, lifecycle decay timers, and target impact detection tags:
 
-![Projectile Interaction Sandbox](PASTE_YOUR_PROJECTILE_GIF_URL_HERE)
+![Projectile Interaction Sandbox]
 
 ### 3. Bullet Impact Physics & Surface Detection
 
