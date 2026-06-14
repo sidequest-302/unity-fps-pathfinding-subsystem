@@ -43,7 +43,7 @@ Below is a demonstration of the `GridManager`, `Pathfinder`, and `EnemyMovement`
 
 ![Pathfinding Demonstration Workflow](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Enemy%20Movement_2.gif?raw=true)
 
-Next is a demonstration of the `EnemyMovement` components evaluates structural target variables to move between more complex AI state logic (Melee, Charging, Mid-Range, and Tracking):
+A demonstration of how the `EnemyMovement` components evaluates structural target variables to move between more complex AI state logic (Melee, Charging, Mid-Range, and Tracking):
 
 ![Pathfinding Demonstration Workflow](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Enemy%20movement.gif?raw=true)
 
