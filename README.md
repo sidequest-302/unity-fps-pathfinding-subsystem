@@ -49,7 +49,7 @@ A demonstration of the physical interaction layer, including custom velocity vec
 
 ![Projectile Interaction Sandbox](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Plasma%20Physics.gif?raw=true)
 
-![Projectile Interaction Sandbox]((https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Enemy%20movement.gif?raw=true)
+![Projectile Interaction Sandbox](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Enemy%20movement.gif?raw=true)
 
 ### 3. Bullet Impact Physics & Surface Detection
 
