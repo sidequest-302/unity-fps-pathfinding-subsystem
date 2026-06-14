@@ -53,7 +53,7 @@ A demonstration of the physical interaction layer, including custom velocity vec
 
 A look at the high-velocity raycasting pipeline, evaluating surface material tags and dynamically spawning particle impact effects relative to collision normals:
 
-![Bullet Impact Physics Sandbox](PASTE_YOUR_BULLET_IMPACT_GIF_URL_HERE)
+![Bullet Impact Physics Sandbox](Bullet Physics.gif)
 
 ### 4. Core Core Loop & Systems Integration
 
