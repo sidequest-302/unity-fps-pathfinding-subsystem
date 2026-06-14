@@ -47,14 +47,13 @@ Below is a demonstration of the `GridManager`, `Pathfinder`, and `EnemyMovement`
 
 A demonstration of the physical interaction layer, including custom velocity vectors, lifecycle decay timers, and target impact detection tags:
 
-![Projectile Interaction Sandbox]
+![Projectile Interaction Sandbox](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Plasma%20Physics.gif?raw=true)
 
 ### 3. Bullet Impact Physics & Surface Detection
 
 A look at the high-velocity raycasting pipeline, evaluating surface material tags and dynamically spawning particle impact effects relative to collision normals:
 
 ![Bullet Impact Physics Sandbox](https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Bullet%20Physics.gif?raw=true)
-(https://github.com/sidequest-302/unity-fps-pathfinding-subsystem/blob/main/Plasma%20Physics.gif?raw=true)
 
 ### 4. Core Core Loop & Systems Integration
 
