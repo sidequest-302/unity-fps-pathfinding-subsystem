@@ -148,7 +148,7 @@ public class EnemyMovementExcerpt : MonoBehaviour
     }
 }
 
-// Dummy classes to represent custom extensions present in your framework codebase
+// Class reference to handle animation triggers and reset variables
 public static class AnimatorExtensions
 {
     public static void SetTriggerOnce(this Animator anim, string name, ref bool triggerFlag) { }
